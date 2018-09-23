@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import logo from './logo.svg'
 import './App.css'
 import * as MyScriptJS from 'myscript'
 import 'myscript/dist/myscript.min.css'
@@ -25,7 +24,7 @@ class App extends Component {
         apiVersion: 'V4',
         server: {
           scheme: 'https',
-          // host: 'webdemoapi.myscript.com',
+          host: 'webdemoapi.myscript.com',
           applicationKey: '0872b69d-55f4-406c-9675-cccf91ddc38c',
           hmacKey: 'be057397-5b0f-44a0-8df3-d9fc8ce9a1f3'
         }
